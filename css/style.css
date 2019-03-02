@@ -123,6 +123,10 @@ h1,h2,h3,h4,h5,h6,p,button{
   background-image: linear-gradient(#ee8551,#e6573f);
 
 }
+
+select{
+  border-radius: 6px;
+}
 /*MiddleHeader CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .middleHeader a{
@@ -193,15 +197,25 @@ h1,h2,h3,h4,h5,h6,p,button{
 
 .slideContent{
   margin-top: 100px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
 }
 
 .slideContent p{
   color: white;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 .slideContent h1{
-  color: black;
+  color: white;
+  text-shadow: 1px 1px;
+  font-weight: bolder;
 }
+
+.fa{
+  color: #FFA211;
+} 
 
 ul{
   text-align: center;
@@ -237,6 +251,7 @@ ul.slick-dots li button{
   background-color: transparent;
   border: none;
   font-size: 40px;
+  outline: none;
 }
 
 button.slick-prev{
@@ -432,7 +447,7 @@ button.slick-next{
   margin-top: 30px;
 }
 
-/*section two ######################################################*/
+/*section three ######################################################*/
 
 .sectionThree{
   padding: 50px 0px;
@@ -463,4 +478,225 @@ button.slick-next{
   margin: 10px;
   background-color: #F8D575;
   border-radius: 5px;
+}
+
+/*section four #####################################################*/
+
+.myVerticalTab li{
+  display: block;
+  padding: 24.6px;
+  font-weight: bolder;
+  border: 1px solid lightgrey;
+}
+
+
+
+.myVerticalTab li:hover{
+  background-color: lightyellow;
+}
+
+.active{
+  background-color: red;
+}
+
+.sectionFour{
+  padding: 50px 0px;
+  margin: 50px 0px;
+}
+.sectionFourContent {
+    margin-top: 20px;
+}
+
+.sectionFourContent label, .sectionFourContent h3, .sectionFourContent p{
+  text-align: center;
+  margin-top: 15px;
+  font-weight: normal;
+}
+
+.sectionFourContent label{
+margin-left: 90px;
+margin-top: 10px;
+}
+
+.sectionFourHeading{
+  text-align: center;
+}
+
+.sectionFourHeading h1 span{
+  color: orange;
+}
+
+.holyday {
+  background-color:#f0f0f0;
+  border:1px solid lightgray;
+}
+
+
+.mdc-layout-grid__inner{
+  margin-bottom: 10px;
+}
+
+.holyday_txt1{
+  color:#6c4c95;
+}
+.holyday_btn1{
+  margin-bottom:15px;
+      margin-top: 10px;
+  background-color: #eda33a;
+  margin-right: 0px;
+  background-image: linear-gradient(#f5e67b,#e6a02a);
+
+}
+.holyday_txt2{
+  color:#d7383c;
+}
+.holyday_btn2{
+  margin-bottom:15px;
+  background-color: #eda33a;
+      margin-top: 10px;
+  margin-right: 0px;
+  background-image: linear-gradient(#f5e67b,#e6a02a);
+
+}
+.holyday_txt3{
+  color:#153b86;
+}
+.holyday_btn3{
+  margin-bottom:15px;
+  background-color: #eda33a;
+      margin-top: 10px;
+  margin-right: 0px;
+  background-image: linear-gradient(#f5e67b,#e6a02a);
+
+}
+
+button{
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+/*section five ######################################################*/
+
+.sectionFive{
+  padding: 50px 0px;
+  margin: 50px 0px;
+}
+
+.sectionFiveHeading{
+  text-align: center;
+}
+
+.sectionFiveHeading h1 {
+    color: white;
+    text-shadow: 1px 1px;
+}
+
+.sectionFiveHeading h1 span{
+    color: yellow;
+}
+
+
+.sectionFiveContent img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid red;
+  margin-top: 15px;
+}
+
+ .sectionFiveContent h3, .sectionFiveContent p, .sectionFiveContent span{
+  color: white;
+  font-weight: bolder;
+}
+
+.sectionFiveContent{
+  text-align: center;
+}
+
+.sectionFiveContent p{
+  margin: 10px 400px ;
+  font-weight: normal;
+}
+
+.slick-slide img{
+  display: inline-block;
+}
+
+.mainSliderTwo button{
+  margin-top: 128px;
+}
+
+.mainSliderTwo ul.slick-dots{
+  margin: -22px;
+}
+
+.sectionFive {
+  background-image: url("../images/parallex.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sectionFive ul.slick-dots li button {
+  background-color: yellow;
+  bottom: 0px;
+}
+
+.sectionFive ul.slick-dots{
+  bottom: -58px;
+}
+
+/*footer #####################################*/
+
+.footer p{
+  font-weight: normal;
+  padding: 2px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.footer h2{
+  margin-bottom: 30px;
+}
+
+.footer{
+  background-color: #3f3f41;
+  margin-top: 50px;
+}
+.footer_about{
+  color:#fee06c;
+}
+.f_about_p{
+  color: white;
+}
+.f_img{
+  margin-top: 13px;
+}
+.footer_destination{
+  color: #ed8f4f;
+}
+.f_margin{
+  margin-top: -25px;
+}
+.f_title1{
+  color:#ffdb77;
+}
+.f_title3{
+  color: #d33e58;
+}
+.f_title4{
+  color: #6d568b;
+}
+.f_title5{
+  color: #7679db;
+}
+.f_title6{
+  color: #6fa5ce;
+}
+.footer_bottom{
+  background-color: #38383a;
 }
